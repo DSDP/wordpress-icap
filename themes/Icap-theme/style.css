@@ -1,0 +1,146 @@
+/*
+ Theme Name:     Icap Theme
+ Theme URI:      http://www.icap.com.ar
+ Description:    Template para el ICAP basado en Flat theme
+ Author:         DSDP
+ Author URI:     http://www.dadp.gob.ar
+ Template:       flat-theme
+ Version:        1.0.0
+*/
+ 
+@import url("../flat-theme/style.css");
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+
+
+body {
+	padding-top: 110px;
+	outline: 0 none;
+	background: #fff;
+}
+
+
+/* Header */ 
+
+.navbar-brand {
+  padding: 8px 15px;
+}
+
+.logo-icap {
+	    position: relative;
+    top: 11px;
+}
+
+@media (max-width: 768px) {
+  .logo-icap {
+    top: -52px;
+  }
+}
+
+.navbar-toggle {
+    position: fixed;
+    right: 0;
+    top: 56px;    
+}
+
+.sub-nav {
+	float: left;
+	background-color: #0090c0;
+	width: 100%;
+	text-align: left;
+	padding: 0;
+	height: 44px;
+	border-top: 4px solid #00a1cb;
+
+}
+
+.navbar-inverse .navbar-nav>li a {
+  color: #fff;
+}
+
+.navbar .navbar-main > li > a {
+	border-radius: 0;
+}
+
+.navbar-main > li > a:hover,
+.navbar-main > li.active > a {
+	backgroun: #007090;
+}
+
+.navbar .navbar-main {
+  margin-top: 0;
+  float: left;
+}
+
+
+ul.breadcrumb {
+  width: 100%;
+  text-align: left;
+}
+
+ul.breadcrumb > li > a, ul.breadcrumb > li .divider {
+	color: #333;
+}
+
+ul.breadcrumb > li.active {
+    color: #333;
+}
+
+.breadcrumb>li+li:before {
+    color: #333;
+    content: ">";
+}
+
+
+/* Sidebar */ 
+#sidebar {
+    position: relative;
+    top: -200px;
+    right: -130px;
+    padding: 15px;
+    width: 264px;
+    height: 600px;
+	background: #f1f5f8; /* Old browsers */
+    background: -moz-linear-gradient(top, #f1f5f8 45%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(45%,#f1f5f8), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #f1f5f8 45%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #f1f5f8 45%,#ffffff 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #f1f5f8 45%,#ffffff 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #f1f5f8 45%,#ffffff 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f5f8', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+
+/* Footer */
+#bottom {
+	display: none;
+}
+
+footer {
+	background-color: #c0c7ca !important;
+	color: #333 !important;
+	    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+
+#footer a {
+	color: #333;
+}
+
+
+
+body > section, #boxed > section {
+	padding: 5px 0;
+}
+
+
+.home-hero {
+	min-height: 382px;
+	background-color: #ddd;
+}
