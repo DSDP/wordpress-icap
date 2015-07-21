@@ -17,6 +17,7 @@
 
 body {
 	padding-top: 110px;
+  padding-bottom: 100px;
 	outline: 0 none;
 	background: #fff;
 }
@@ -96,12 +97,12 @@ ul.breadcrumb > li.active {
 
 /* Sidebar */ 
 #sidebar {
-    position: relative;
-    top: -200px;
-    right: -130px;
-    padding: 15px;
-    width: 264px;
-    height: 600px;
+position: relative;
+top: -122px;
+right: -130px;
+padding: 40px 15px 15px 15px;
+width: 264px;
+height: 600px;
 	background: #f1f5f8; /* Old browsers */
     background: -moz-linear-gradient(top, #f1f5f8 45%, #ffffff 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(45%,#f1f5f8), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */

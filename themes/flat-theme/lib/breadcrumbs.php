@@ -7,7 +7,7 @@ ob_start();
 
 <ul class="breadcrumb  pull-right">
   <li>
-    <a href="<?php home_url(); ?>" class="breadcrumb_home"><?php esc_html_e('Home',ZEETEXTDOMAIN) ?></a> 
+    <a href="<?php home_url(); ?>" class="breadcrumb_home"><i class="icon-home"></i></a> 
   </li>
   <li class="active">
   
